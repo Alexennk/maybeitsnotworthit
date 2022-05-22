@@ -25,6 +25,23 @@ let phrases = [
     { text: 'Escroquerie', image: 'Images\\imposter\\Imposter-1.jpg' },
     { text: 'Да да да да да', image: 'Images\\imposter\\Back_sun.jpg' },
     { text: 'Нужно беречь себя', image: 'Images\\imposter\\Motivate_1.jpg' },
+    { text: 'Иногда не стоит торопиться и гнаться за новыми технологиями сломя голову', image: 'Images\\Beautiful\\dont_hurry.jpg' },
+    { text: 'Саратов смог - и ты сможешь', image: 'Images\\Beautiful\\and_you_can.jpg' },
+    { text: 'Не забывай носить бэйджик, чтобы тебя правильно поняли', image: 'Images\\Beautiful\\badge.jpg' },
+    { text: 'Если хочешь обрести свободу, нужно быть самостоятельным', image: 'Images\\Beautiful\\by_yourself.jpg' },
+    { text: 'Иногда стоит подумать не только о внешнем виде, но и об удобстве', image: 'Images\\Beautiful\\convenience.jpg' },
+    { text: 'Порой правильным решением будет не выставлять свои способности напоказ', image: 'Images\\Beautiful\\dangerous.jpg' },
+    { text: 'Следи за стилем, он повысит твой статус', image: 'Images\\Beautiful\\fashion.jpg' },
+    { text: 'Создавай впечатление культурного, грамотного человека', image: 'Images\\Beautiful\\gramm.jpg' },
+    { text: 'Пользуйся хотя бы элементарными правилами логики', image: 'Images\\Beautiful\\logic.jpg' },
+    { text: 'Будь естественным (естественной)', image: 'Images\\Beautiful\\natural.jpg' },
+    { text: 'Не забывай о том, насколько прекрасен окружающий нас мир', image: 'Images\\Beautiful\\nature.jpg' },
+    { text: 'Несмешно кстати', image: 'Images\\Beautiful\\not_funny.jpg' },
+    { text: 'Не бойся говорить о том, что у тебя какие-либо проблемы', image: 'Images\\Beautiful\\problems.jpg' },
+    { text: 'Не занижай самооценку и никогда не недооценивай себя', image: 'Images\\Beautiful\\self-esteem.jpg' },
+    { text: 'Это будет самым правильным решением в твоей жизни', image: 'Images\\Beautiful\\sleeping.jpg' },
+    { text: 'Есть мнение, что стоит сначала думать, а затем говорить', image: 'Images\\Beautiful\\think.jpg' },
+    { text: 'Знай, что ты лучше', image: 'Images\\Beautiful\\you_are_better.jpg' },
     { text: 'О, мем, прикольно)0)))0', image: 'Images\\Жизнь.jpg' }
 ];
 
@@ -36,7 +53,7 @@ function isInIndexes(number) {
     return false;
 }
 function getRandomElement(arr) {
-    if (indexes.length == 27) {
+    if (indexes.length == 44) {
         indexes.length = 0;
     }
     let randIndex = Math.floor(Math.random() * arr.length);
@@ -68,4 +85,3 @@ for (let i = 0; i <= 1; i += 1) {
     smoothly(phrase, 'textContent', phrases[i].text);
     smoothly(image, 'src', phrases[i].image)
 }
-
