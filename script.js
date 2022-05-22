@@ -27,6 +27,7 @@ let phrases = [
     { text: 'Нужно беречь себя', image: 'Images\\imposter\\Motivate_1.jpg' },
     { text: 'О, мем, прикольно)0)))0', image: 'Images\\Жизнь.jpg' }
 ];
+
 let indexes = [0, 1];
 function isInIndexes(number) {
     for (let i = 0; i < indexes.length; i++) {
@@ -35,7 +36,9 @@ function isInIndexes(number) {
     return false;
 }
 function getRandomElement(arr) {
-    if (indexes.length == 27) indexes.length = 0;
+    if (indexes.length == 27) {
+        indexes.length = 0;
+    }
     let randIndex = Math.floor(Math.random() * arr.length);
     while (isInIndexes(randIndex)) {
         randIndex = Math.floor(Math.random() * arr.length);
@@ -65,3 +68,4 @@ for (let i = 0; i <= 1; i += 1) {
     smoothly(phrase, 'textContent', phrases[i].text);
     smoothly(image, 'src', phrases[i].image)
 }
+
