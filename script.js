@@ -1,5 +1,6 @@
 let phrases = [
-    { text: 'Цитата на века...', image: 'Images\\Оригинал.jpg' },
+    { text: 'Николай Яковлевич, сколько мне за контрольную?', image: 'Images\\imposter\\Radyno.jpg' },
+    { text: 'Жми на "Еще вариант"', image: 'Images\\imposter\\Kushats.jpg' },
     { text: 'Escroquerie', image: 'Images\\imposter\\Imposter-2.jpg' },
     { text: 'Такое ощущение, что это уже было (это и правда уже было)', image: 'Images\\Уверенность.jpg' },
     { text: 'Слабонервным (не) читать', image: 'Images\\Шутка.jpg' },
@@ -10,13 +11,12 @@ let phrases = [
     { text: 'Его не стоит винить. Как-никак, это его работа', image: 'Images\\Водитель.jpg' },
     { text: 'Мотивация - это очень важно', image: 'Images\\imposter\\Yes_cat.jpg' },
     { text: 'Мотивация - это и правда важно', image: 'Images\\imposter\\Motivate_2.jpg' },
-    { text: 'Жми на "Еще вариант"', image: 'Images\\imposter\\Kushats.jpg' },
+    { text: 'Цитата на века...', image: 'Images\\Оригинал.jpg' },
     { text: 'Если сильно постараться, можно стать таким, как он', image: 'Images\\imposter\\Good_progggggger.jpg' },
     { text: '(и правда позитивные)', image: 'Images\\imposter\\Motivate_3.jpg' },
     { text: 'Escroquerie', image: 'Images\\imposter\\Imposter-4.jpg' },
     { text: 'Такое ощущение, что это уже было (этого ещё не было)', image: 'Images\\Уверенность(для нее).jpg' },
     { text: 'Иногда хочется и погрустеть', image: 'Images\\imposter\\Oh.jpg' },
-    { text: 'Николай Яковлевич, сколько мне за контрольную?', image: 'Images\\imposter\\Radyno.jpg' },
     { text: 'Если собрать все уважение в мире, то хватит только на его салфеточку', image: 'Images\\imposter\\Respect.jpg' },
     { text: 'Escroquerie', image: 'Images\\imposter\\Imposter-5.jpg' },
     { text: 'Классный шрифт все-таки, вкусный такой', image: 'Images\\Аксод.jpg' },
@@ -37,6 +37,7 @@ let phrases = [
     { text: 'Будь естественным (естественной)', image: 'Images\\Beautiful\\natural.jpg' },
     { text: 'Не забывай о том, насколько прекрасен окружающий нас мир', image: 'Images\\Beautiful\\nature.jpg' },
     { text: 'Несмешно кстати', image: 'Images\\Beautiful\\not_funny.jpg' },
+    { text: 'Вы правы как никогда', image: 'Images\\Beautiful\\feelings_dali.jpg' },
     { text: 'Не бойся говорить о том, что у тебя какие-либо проблемы', image: 'Images\\Beautiful\\problems.jpg' },
     { text: 'Не занижай самооценку и никогда не недооценивай себя', image: 'Images\\Beautiful\\self-esteem.jpg' },
     { text: 'Это будет самым правильным решением в твоей жизни', image: 'Images\\Beautiful\\sleeping.jpg' },
@@ -53,7 +54,7 @@ function isInIndexes(number) {
     return false;
 }
 function getRandomElement(arr) {
-    if (indexes.length == 44) {
+    if (indexes.length == 45) {
         indexes.length = 0;
     }
     let randIndex = Math.floor(Math.random() * arr.length);
