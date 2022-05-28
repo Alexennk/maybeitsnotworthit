@@ -22,7 +22,7 @@ let phrases = [
     { text: 'Классный шрифт все-таки, вкусный такой', image: 'Images\\Аксод.jpg' },
     { text: 'Escroquerie', image: 'Images\\imposter\\Imposter-3.jpg' },
     { text: 'Там где-то недалеко дневничок такой лежал, как насчет... его заполнить?', image: 'Images\\Гороскопы.jpg' },
-    { text: 'Духаст Вячеславыч, духаст Вячеславыч...', image: 'Images\\New_portion\\animation.gif' },
+    { text: 'Духаст Вячеславыч, духаст Вячеславыч...', image: 'Images\\New_portion\\animation.gif.gif' },
     { text: 'Да да да да да', image: 'Images\\imposter\\Back_sun.jpg' },
     { text: 'Нужно беречь себя', image: 'Images\\imposter\\Motivate_1.jpg' },
     { text: 'Иногда не стоит торопиться и гнаться за новыми технологиями сломя голову', image: 'Images\\Beautiful\\dont_hurry.jpg' },
